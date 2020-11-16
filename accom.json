@@ -1,0 +1,50 @@
+{
+    "details": {
+        "hotel": [
+            {
+                "name":"Aarem Valley Castle",
+				"phone":"9786009123",
+				"rent":"3000",
+				"link":"https://www.nativeplanet.com/kodaikanal/hotels/aarem-valley-castle-2688-kodaikanal-1/",
+				"location":"Area: No.4/64-4, Queens's Land,Convent Road,Kodaikanal - 624101. - km to city centre",
+				"ratings":"4.6"
+				"_hid":"kh01"
+            },
+            
+            {
+                 "name":"The CARLTON",
+				"phone":"9980762311",
+				"rent":"2000",
+				"link":"https://www.nativeplanet.com/kodaikanal/hotels/the-carlton-2689-kodaikanal-1/",
+				"location":"THE CARLTON Lake Road, Kodaikanal- 624 101 , Kodaikanal",
+				"ratings":"4.3",
+				"_hid":"kh02"
+				
+            },
+			{
+                 "name":"Green Park",
+				 "phone":"9700526928",
+				"rent":"2500",
+				"link":"https://www.nativeplanet.com/kodaikanal/hotels/hotel-green-park-2696-kodaikanal-1/",
+				"location":"Hotel Green Park,Convent Road (deppo),Kodaikanal - 624101 , Kodaikanal",
+				"ratings":"4.3",
+				"_hid":"kh03"
+            }
+            
+		]
+		"cottage":[
+		{"name":"Cinnabar Farm",
+		 "contact":"2523132",
+		 "address":"Cinnabar, Chettiar Road, Kodaikanal 624101, Tamil Nadu, India. , Kodaikanal",
+		 "ratings":"4.5",
+		 "_cid":"kc01"
+		},
+		{"name":"The Fern Creek",
+		 "contact":"2535632",
+		 "address":"212/118, Fern Hill Road,  Kodaikanal - 624 101 , Kodaikanal",
+		 "ratings":"4.7",
+		 "_cid":"kh02"
+		}
+		]
+    }
+}

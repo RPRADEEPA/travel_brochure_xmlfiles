@@ -1,0 +1,16 @@
+
+<!ELEMENT accomadation(hotel+,cottage+)>
+<!ELEMENT hotel(name,phone,rent,link,location,ratings)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT phone(#PCDATA)>
+<!ELEMENT rent (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT ratings (#PCDATA)>
+<!ATTLIST hotel hid ID #REQUIRED>
+<!ELEMENT cottage(name,contact,address,rating)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ATTLIST cottage cid ID #REQUIRED>

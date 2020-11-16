@@ -1,0 +1,17 @@
+<!ELEMENT about(route+,places,wheather)>
+<!ELEMENT route(transport,nearest,decs)>
+<!ELEMENT transport(#PCDATA)>
+<!ELEMENT nearest(#PCDATA)>
+<!ELEMENT decs (#PCDATA)>
+<!ELEMENT places(spot+)>
+<!ELEMENT spot (name,details,image)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT details(#PCDATA)>
+<!ELEMENT image(#PCDATA)>
+<!ATTLIST spot pid ID #REQUIRED>
+<!ELEMENT wheather (day+)>
+<!ELEMENT day (celsius,fahrenheit,type)>
+<!ELEMENT celsius(#PCDATA)>
+<!ELEMENT fahrenheit(#PCDATA)>
+<!ELEMENT type(#PCDATA)>
+<!ATTLIST day did ID #REQUIRED>

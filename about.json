@@ -1,0 +1,52 @@
+{
+    "about": {
+        "route": [
+            {
+                "transport":"road",
+				"nearest":"Dindugul",
+				"desc":"There are regular bus services to Madurai, Coimbatore, Bangalore, Trichy and Chennai. The bus is an inexpensive and comfortable means to travel to the town."
+				
+            },
+            {
+                 "transport":"Railways",
+				"nearest":"Kodai Road",
+				"desc":"Kodai road the closest rail head and it is 80 kilometres away from Kodaikanal. However, the nearest major junction is Coimbatore which connect the town to Delhi, Kolkata, Chennai, Bangalore and other towns and cities of the country"
+            },
+            {
+                 "transport":"Air",
+				"nearest":"Madurai",
+				"desc":"Madurai airport is the closest airport to Kodaikanal and is 120km away from the hill station. The airport is connected to Coimbatore and Chennai. The closest international airport is Chennai airport which connects the region to the rest of the country and the world."
+            }
+            
+		],
+		"places":{
+		"spot":[
+		{"name":"Bryant Park",
+		 "details":"The park was planned and built in 1908 by a forest officer from Madurai, H.D. Bryant, and named after him. With 325 species of trees, shrubs, and cacti, the park is a rainbow of flowers during the peak season.",
+		 "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.dtnext.in%2FArticles%2F2020%2FSep%2F202009081406092507_Tourist-activities-to-resume-in-Kodaikanal-from-tomorrow_SECVPF.gif&imgrefurl=https%3A%2F%2Fwww.dtnext.in%2FNews%2FTamilNadu%2F2020%2F09%2F08140609%2F1249936%2FTourist-activities-to-resume-in-Kodaikanal-from-tomorrow.vpf&tbnid=Xg3fhtN3t9fkKM&vet=12ahUKEwiMmZvw_YbtAhXDOysKHemcDxQQMyggegUIARCVAg..i&docid=mdK6UC2MXMRTyM&w=620&h=414&q=kodaikanal&ved=2ahUKEwiMmZvw_YbtAhXDOysKHemcDxQQMyggegUIARCVAg"
+		 "_pid":"kp01"
+		},
+		{"name":"Kodaikanal lake",
+		 "details":"Kodaikanal lake is an artificial, roughly star-shaped 45-hectare (110-acre) lake built in 1863. It is Kodaikanal's most popular geographic landmark and tourist attraction.",
+		 "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Flive.staticflickr.com%2F7813%2F46506181724_71743b2695_b.jpg&imgrefurl=https%3A%2F%2Fwww.thrillophilia.com%2Fattractions%2Fkodaikanal-lake&tbnid=GGdAX2a2_EbDyM&vet=12ahUKEwiMmZvw_YbtAhXDOysKHemcDxQQMygTegUIARD1AQ..i&docid=usWOWhWSTBtsFM&w=1024&h=669&q=kodaikanal&ved=2ahUKEwiMmZvw_YbtAhXDOysKHemcDxQQMygTegUIARD1AQ"
+		"_pid":"kp02"
+		}
+		]
+		},
+		"weather":{
+		"day":[
+		{
+		"celsius":"29",
+		"fahrenheit":"84",
+		"type":"patchy rain",
+		"_did":"day1"
+		},
+		{"celsius":"21",
+		"fahrenheit":"69",
+		"type":"cloudy",
+		"_did":"day2"
+		}
+		]
+		}
+    }
+}

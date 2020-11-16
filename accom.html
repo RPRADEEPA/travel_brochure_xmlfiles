@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2><b>route</b></h2>
+<p><b>details</b></p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("demo").innerHTML = myObj.transport;
+	document.getElementById("demo1").innerHTML = myObj.desc;
+
+	
+  }
+};
+xmlhttp.open("GET", "new4.txt", true);
+xmlhttp.send();
+</script>
