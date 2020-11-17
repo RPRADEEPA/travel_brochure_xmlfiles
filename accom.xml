@@ -1,5 +1,6 @@
-<xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE note SYSTEM "accomadation.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "accom.dtd">
+<?xml-stylesheet type = "text/xsl" href = "accom.xsl"?>
 <accomadation>
 <hotel hid="kh01">
   <name>Aarem Valley Castle</name>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>TRAVEL BROCHURE</h2>
+
+  <div class="w3-card-4" style="width:70%">
+    <header class="w3-container w3-light-blue">
+      <h3>Weather Condition</h3>
+    </header>
+    <div class="w3-container">
+      <p id="Name">CURRENT DAY</p>
+      <hr>
+      
+      <p id="b"></p><br>
+      <p id="e"></p><br>
+      <p id="p"></p><br>
+    </div>
+    <a href="about2.html">MORE</a>
+  </div>
+</div>
+
+</body>
+<script>
+    var parser, xmlDoc;
+    var text = "<day>"+"<celisus>29</celisus>"+"<fahrenheit>84</fahrenheit>"+"<type>patchy rain</type>"+"</day>";
+    parser = new DOMParser();
+    xmlDoc = parser.parseFromString(text,"text/xml");
+    
+    document.getElementById("b").innerHTML ="<b>Celsius-</b>"+
+    xmlDoc.getElementsByTagName("celisus")[0].childNodes[0].nodeValue;
+    document.getElementById("e").innerHTML ="<b>Fahrenheit-</b>"+ 
+    xmlDoc.getElementsByTagName("fahrenheit")[0].childNodes[0].nodeValue;
+    document.getElementById("p").innerHTML ="<b>Type-</b>"+ 
+    xmlDoc.getElementsByTagName("type")[0].childNodes[0].nodeValue;
+    
+    </script>
+    
+    </body>
+</html>
